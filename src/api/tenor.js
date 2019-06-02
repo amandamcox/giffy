@@ -5,6 +5,7 @@ export default axios.create({
   params: {
     api_key: 'BIRHLBYSRGQD',
     limit: 48,
-    locale: 'en_US'
+    locale: 'en_US',
+    contentfilter: 'medium'
   }
 });
